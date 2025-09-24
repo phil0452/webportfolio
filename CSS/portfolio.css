@@ -301,6 +301,7 @@ header {
 
 #portfolio > .container > .site_image > a > img {
     width: 270px;
+    height: 168px;
 }
 
 #portfolio > .container > .site_image > a {
@@ -385,4 +386,5 @@ header {
     color: var(--color-grey);
     font-weight: 400;
     display: block;
+
     }
