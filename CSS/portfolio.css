@@ -45,7 +45,6 @@ body {
 }
 
 .container {
-    width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -193,14 +192,23 @@ header {
 .flex {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    
-        justify-content:space-evenly;
+    justify-content:space-evenly;
 }
 
+.content_align {
+    text-align: center;
+}
 @media (min-width: 720px) {
     .flex {
         flex-direction: row;
+    }
+
+    .content_align {
+        text-align: left;
+    }
+
+    .paragraph_width {
+        width: 430px;
     }
 }
 .banner_message {
